@@ -1,0 +1,91 @@
+h1{
+    font-family: 'Roboto Slab';
+}
+p{
+    font-family: 'Gideon Roman';
+    font-weight: bold;
+}
+a{
+    font-family: 'Gideon Roman';
+    font-weight: bold;
+}
+body{
+    background-color: rgb(0, 0, 0, .3);
+    cursor: pointer;
+}
+
+.about-me{
+    display: flex;
+    justify-content: end;
+    text-align: center;
+    margin: auto;
+}
+.about-img{
+    align-items: center;
+    display: flex;
+}
+.about-img  img{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    margin: auto;
+    border-radius: 10px;
+    border: 2px solid aqua;
+}
+.about-text h1{
+    font-family: 'Roboto Slab';
+    font-weight: bold;
+}
+.about-text p{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Quintessential';
+}
+.container{
+    margin-top: 0;
+}
+.row{
+    --bs-gutter-x: 0;
+}
+.cv-btn a{
+    color: black;
+    text-decoration: none;
+}
+.cv-btn a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+
+.contact{
+    display: grid;
+    justify-items: center;
+}
+.contact1{
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 80px;
+}
+a{
+    color: white;
+}
+a:hover {
+    color: black;
+  }
+
+@media (max-width: 767px) { 
+    .skill{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .Hobbies {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .contact{
+        justify-content: center;
+    }
+    .contact1{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}

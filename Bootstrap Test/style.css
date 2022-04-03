@@ -1,0 +1,354 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(0, 0, 0, .1);
+}
+h1{
+    font-size: 30px;
+    font-family: 'Roboto Slab';
+    font-weight: bold;
+    color: red;
+}
+a{
+    font-size: 20px;
+    font-family: 'Bebas Neue';
+    letter-spacing: 2px;
+}
+button{
+    font-family: 'Josefin Sans';
+    background-color: rgb(0, 174, 255);
+}
+.container-fluid img{
+    width: 50px;
+    height: auto;
+}
+.navbar{
+    background-color: rgb(0, 0, 0, .3);
+}
+.font-size ul li a{
+    font-size: 16px;
+}
+.nav-link{
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: .4s;
+}
+.nav-link:hover{
+    color: aqua !important;
+    transform: scale(1.1);
+}
+.nav-ico{
+    color: red;
+}
+
+
+/* ..........ABOUT ME.......... */
+.about-me{
+    display: flex;
+    justify-content: end;
+    text-align: center;
+    margin: auto;
+}
+.about-img{
+    align-items: center;
+    display: flex;
+}
+.about-img  img{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    margin: auto;
+    border-radius: 10px;
+    border: 2px solid aqua;
+   
+}
+.about-text h1{
+    font-family: 'Roboto Slab';
+    font-weight: bold;
+}
+.about-text p{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Quintessential';
+}
+.first-btn{
+    background-color: rgb(0, 174, 255);
+    border: 1px solid red;
+    color: white;
+    transition: .5s;
+}
+.first-btn:hover{
+    background-color: aquamarine;
+    transform: scaleX(1.1);
+}
+.container{
+    margin-top: 0;
+}
+.row{
+    --bs-gutter-x: 0;
+}
+
+/* ..........My Skill.......... */
+.section-3{
+    padding: 50px 0px;
+    background-image: url(./image/img-6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Skill{
+    justify-content: center;
+    margin: auto;
+    width: 500px;
+    color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 15px 3px azure;
+    border-radius: 5px;
+}
+.Skill li{
+    list-style: none;
+    margin: 10px 0px;
+    padding: 10px;
+}
+.Skill h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Roboto Slab';
+    padding: 2px 0px;
+}
+.Skill hr{
+    width: 100px;
+    text-align: center;
+    margin: auto;
+    border: 1px solid red;
+}
+.Skill h3{
+    margin: 10px;
+    font-size: 20px;
+    font-family: 'Josefin Sans';
+}
+.bar{
+    background-color: rgb(235, 217, 217);
+    display: block;
+    height: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 6px -1px #02cbee;
+    transition: all 0.3s  cubic-bezier(.15,.8,.25,1);
+}
+.bar span{
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg, rgb(255, 0, 153)0%, rgb(245, 52, 52)100%);
+}
+.html{
+    width: 90%;
+    animation: html 4s;
+}
+.css{
+    width: 70%;
+    animation: css 4s;
+}
+.bootstrap{
+    width: 90%;
+    animation: bootstrap 4s;
+}
+.javascript{
+    width: 30%;
+    animation: javascript 4s;
+}
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+@keyframes bootstrap{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes javascript{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 30%;
+    }
+}
+
+
+
+
+/* ..........MY SERVICES.......... */
+#my-services{
+    background-color: rgb(80, 78, 78);
+    padding: 50px 20px;
+}
+.my-services-titel p{
+    font-family: 'Gideon Roman';
+    font-weight: bold;
+    color: black;
+}
+.my-services-text i{
+    padding: 5px 0px;
+    font-size: 50px;
+}
+.my-services-text{
+    background-color: #d9e8eb;
+    border: 1px solid rgb(255, 0, 153);
+    box-shadow: 0px 0px 15px 5px;
+    margin: 8px 0;
+    padding: 15px;
+    transition: .3s;
+}
+.my-services-text:hover{
+    background-color: aquamarine;
+    cursor: pointer;
+    transform: translate(5px, 3px);
+}
+.my-services-text h1{
+    font-size: 25px;
+    color: black;
+    font-family: 'Bebas Neue';
+    letter-spacing: 1px;
+}
+.my-services-text p{
+    font-size: 16px;
+    font-family: 'Josefin Sans';
+    font-weight: bold;
+}
+
+/* ..........Completed Project.......... */
+.project-style{
+    text-align: center;
+    margin: 10px 0px;
+}
+.project-style h1{
+    text-align: center;
+    margin: auto;
+    margin: 5px 0px;
+}
+.project-style p{
+    text-align: center;
+    margin: auto;
+    padding: 5px 0px;
+    color: white;
+}
+.project-style a{
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+}
+.project-style a{
+    margin-top: 10px;
+    padding: 6px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Gideon Roman';
+    color: white;
+    background-color: #02cbee;
+    border-radius: 5px;
+}
+.project-style a:hover{
+    background-color: aquamarine;
+    color: black;
+    text-decoration: none;
+}
+.project-style-icon{
+    color: white;
+    display: flex;
+    gap: 5px;
+    padding: 10px 0px;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    font-family: 'Gideon Roman';
+}
+.project-style-icon h6{
+    font-size: 14px;
+    font-weight: bolder;
+}
+.read-more-text a{
+    text-decoration: none;
+    font-size: 25px;
+    border: 1px solid;
+    padding: 5px 12px;
+}
+.read-more-text a:hover{
+    text-decoration: underline;
+    color: white;
+    transition: .3s;
+}
+
+/* ..........Featured Project.......... */
+#featured-project{
+    padding: 30px 0px;
+}
+.project-style-1{
+    margin-bottom: 22px;
+    box-shadow: 0px 0px 10px 0px rgb(255, 0, 85) inset;
+}
+
+/* ..........About Me.......... */
+@media only screen and (max-width:600px){
+    .address-me{
+        font-size: 90%;
+    }
+}
+@media only screen and (max-width:500px){
+    .address-me{
+        font-size: 80%;
+    }
+}
+@media only screen and (max-width:300px){
+    .address-me{
+        font-size: 70%;
+    }
+}
+
+/* ..........Footer.......... */
+.copy-footer-icon:hover{
+    box-shadow: 0px 0px 15px 0px #3b5998;
+}
+.copy-footer-icon-1:hover{
+    box-shadow: 0px 0px 15px 0px #fb3958;
+}
+.copy-footer-icon-2:hover{
+    box-shadow: 0px 0px 15px 0px #55acee;
+}
+.copy-footer-icon-3:hover{
+    box-shadow: 0px 0px 15px 0px #0082ca;
+}
+.copy-footer-icon-4:hover{
+    box-shadow: 0px 0px 15px 0px #E62117;
+}
+.copy-footer-icon-5:hover{
+    box-shadow: 0px 0px 15px 0px #333333;
+}
+.a-text a{
+    text-decoration: none;
+    font-size: 16px;
+}
+.a-text a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.a-text-2 a{
+    font-size: 15px;
+}
